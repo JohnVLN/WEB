@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(./test.png);
+    font-family: 'Comfortaa';font-size: 22px;
+    color: aliceblue;
+}
+
+.glass-container {
+    background: linear-gradient(25deg, #ffffff15, #00000015);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 0.5px inset rgba(240, 248, 255, 0.308);
+    padding: 20px;
+    width: 300px;
+    height: 160px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1, p {
+    margin: 0;
+}
+h1 {
+    font-size: 24px;
+    text-transform: capitalize;
+}
+p {
+    line-height: 20px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+i {
+    text-align: right;
+}
+#quote {
+    text-align: right;
+    color: rgba(240, 248, 255, 0.50);
+}
